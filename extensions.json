@@ -1,0 +1,55 @@
+{
+    "general": [
+        "editorconfig.editorconfig", 
+        "eamodio.gitlens", 
+        "coenraads.disableligatures", 
+        "visualstudioexptteam.vscodeintellicode", 
+        "christian-kohler.path-intellisense", 
+        "CoenraadS.bracket-pair-colorizer-2"
+    ],
+    "vim": [
+        "vscodevim.vim"
+    ],
+    "javascript": [
+        "dbaeumer.vscode-eslint", 
+        "esbenp.prettier-vscode", 
+        "eg2.vscode-npm-script", 
+        "christian-kohler.npm-intellisense", 
+        "pflannery.vscode-versionlens", 
+        "wix.vscode-import-cost", 
+        "Orta.vscode-jest"
+    ],
+    "typescript": [
+        "ms-vscode.vscode-typescript-tslint-plugin"
+    ],
+    "css": [
+        "pranaygp.vscode-css-peek"
+    ],
+    "html": [
+        "formulahendry.auto-rename-tag"
+    ],
+	"xml": [
+        "redhat.vscode-xml"
+    ],
+	"csharp": [
+        "ms-dotnettools.csharp"
+    ],
+	"java": [
+        "redhat.java", 
+        "vscjava.vscode-java-debug", 
+        "vscjava.vscode-maven",
+         "gabrielbb.vscode-lombok"
+        ],
+    "themes": [
+        "zhuangtongfa.material-theme", 
+        "PKief.material-icon-theme",
+        "dracula-theme.theme-dracula",
+        "Equinusocio.vsc-material-theme",
+        "sdras.night-owl",
+        "monokai.theme-monokai-pro-vscode",
+        "liviuschera.noctis"
+    ],
+    "others": [
+        "icrawl.discord-vscode"
+    ]
+}

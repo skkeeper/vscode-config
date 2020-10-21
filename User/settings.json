@@ -1,0 +1,41 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+  "extensions.ignoreRecommendations": false,
+  "workbench.sideBar.location": "right",
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": false,
+  "workbench.preferredDarkColorTheme": "Dracula",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono','JetBrains Mono',Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 22,
+  "editor.fontSize": 15,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.rulers": [
+    // 80 characters is not just legacy from old terminals, it's widely
+    // accepted as a comfortable line lenght for reading purposes.
+    // https://katafrakt.me/2017/09/16/80-characters-line-length-limit/
+    80,
+    120
+  ],
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.gradle": true,
+    "**/.mvn": true,
+    "**/node_modules": true
+  },
+  "disableLigatures.mode": "Cursor",
+  "editor.dragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+"vim.useSystemClipboard": true
+}

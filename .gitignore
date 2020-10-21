@@ -1,0 +1,23 @@
+Backups
+Cache
+CachedData
+CachedExtensions
+CachedExtensionVSIXs
+Code Cache
+Crashpad
+Dictionaries
+GPUCache
+Local Storage
+logs
+Session Storage
+Cookies
+Cookies-journal
+languagepacks.json
+machineid
+Network Persistent State
+rapid_render.json
+storage.json
+TransportSecurity
+
+User/globalStorage
+User/workspaceStorage
