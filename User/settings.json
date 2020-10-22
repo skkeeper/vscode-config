@@ -1,18 +1,7 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Dracula",
-  "extensions.ignoreRecommendations": false,
-  "workbench.sideBar.location": "right",
-  "material-icon-theme.folders.theme": "specific",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.activityBar.visible": false,
-  "workbench.preferredDarkColorTheme": "Dracula",
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono','JetBrains Mono',Consolas, 'Courier New', monospace",
   "editor.lineHeight": 22,
   "editor.fontSize": 15,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
   "editor.fontLigatures": true,
   "editor.rulers": [
     // 80 characters is not just legacy from old terminals, it's widely
@@ -21,7 +10,9 @@
     80,
     120
   ],
+  "editor.dragAndDrop": false,
   "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -30,12 +21,31 @@
     "**/.DS_Store": true,
     "**/.gradle": true,
     "**/.mvn": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
-  "disableLigatures.mode": "Cursor",
-  "editor.dragAndDrop": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": false,
+  "workbench.preferredDarkColorTheme": "Dracula",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+
+  // Syntax
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-"vim.useSystemClipboard": true
+  // Extensions
+  "material-icon-theme.folders.theme": "specific",
+  "disableLigatures.mode": "Cursor",
+  "vim.useSystemClipboard": true,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
 }
